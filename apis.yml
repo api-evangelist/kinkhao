@@ -1,4 +1,16 @@
 aid: kinkhao
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinkhao.png
 name: Kinkhao
 description: Kinkhao is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+x-enrichment-checked: '2026-07-20'
+x-enrichment-status: no-api-surface
+x-enrichment-note: >-
+  Enrichment pass 2026-07-19 found no developer or API surface. The stub domain
+  kinkao.co (HTTP 200) is now a parked/compromised open-directory listing
+  unrelated spam/gambling domains (toto878, animevietsubhd, apknajii, dfast.app,
+  ...), so the original 500 Global portfolio company appears defunct. The
+  similarly named kinkhao.com is "Kin Khao Thai Eatery," a Michelin-starred
+  Thai restaurant in San Francisco (Squarespace) - a name collision, not the
+  startup. No OpenAPI, portal, SDKs, .well-known/security.txt (404 on kinkao.co),
+  or any artifact exists to search, generate, or derive. No artifacts fabricated.
 tags:
 - Company
 apis: []
